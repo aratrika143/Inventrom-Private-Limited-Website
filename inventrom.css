@@ -1,0 +1,198 @@
+@font-face{
+	font-family: nexaFont;
+	src: url('../fonts/Nexa_light.otf');
+}
+@font-face{
+	font-family: nexaFontBold;
+	src: url('../fonts/Nexa_Bold.otf');
+}
+body{
+	background-color: white;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'nexaFont';
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	color: black;
+}
+.logo{
+	padding: 5px 0px 4px 0px;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: grey;
+	margin: 0px 200px;
+}
+.toggledNav a{
+	display: none;
+}
+.hamburger{
+	display: none;
+}
+.nav span {
+	margin-right: 30px;
+}
+.bg-image{
+	height: 600px;
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+}
+.image-text{
+	font-size: 1.6em;
+	font-family: 'nexaFontBold';
+	letter-spacing: 1.2px;
+	line-height: 68px;
+	font-size: 40px;
+	font-weight: bold;
+}
+#about{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+}
+.about-title, .awards-title, .contact-title{
+	color: rgb(34, 90, 23);
+	letter-spacing: 2px;
+	font-family: 'Open Sans','sans-serif;';
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.description, .vision-text, .mission-text{
+	font-size: 15px;
+	font-family: 'nexaFont';
+	color: rgb(99, 99, 99);
+}
+.description{
+	text-align: center;
+	line-height: 30px;
+	font-family: 'nexaFont';
+	margin-bottom: 30px;
+}
+.vision-and-mission{
+	display: flex;
+	margin-right: 30px;
+	height: 220px;
+	margin-bottom: 100px;
+
+}
+.vision{
+	margin-right: 50px;
+	height: 400px;
+	width: 44%;
+	padding-left: 35px;
+}
+.mission{
+	margin-left: 40px;
+	height: 400px;
+	width: 44%;
+}
+#awards{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 180px;
+	width: 100%;
+	font-family: 'nexaFont';
+}
+.awards4{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+.award1{
+	width: 22%;
+	height: 300px;
+	text-align: center;
+	padding: 1.5%;
+	float: left;
+	display: inline-block;
+}
+.award2{
+	width: 22%;
+	height: 300px;
+	text-align: center;
+	padding: 1.5%;
+	float: left;
+	display: inline-block;
+}
+.award3{
+	width: 22%;
+	height: 300px;
+	text-align: center;
+	padding: 1.5%;
+	float: left;
+}
+.award4{
+	width: 22%;
+	height: 300px;
+	text-align: center;
+	padding: 1.5%;
+	float: left;
+}
+html{
+	scroll-behavior: smooth;
+}
+.award1-title{
+	font-family: 'nexaFont';
+	font-weight: bold;
+	color: black;
+	display: inline-block;
+}
+.below-awards{
+	display: inline-block;
+	height: 2px;
+	width: 150px;
+	border: none;
+	color: grey;
+	font-family: 'nexaFont';
+}
+#contact{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 120px;
+}
+.hubspot-form{
+	height: 600px;
+	width: 50%;
+	float: left;
+}
+.location{
+	height: 600px;
+	width: 50%;
+	float: right;
+}
+.location-title, .location-name{
+	color: green;
+	font-family: 'Open Sans','sans-serif;';
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.address, .contactus{
+	color: grey;
+	font-family: 'Open Sans','sans-serif;';
+	font-size: 16px;
+}
+.footer{
+	background-color: green;
+	height: 130px;
+	color: white;
+	font-size: 13px;
+	font-family: 'nexaFont';
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+	padding-top: 25px;
+}
